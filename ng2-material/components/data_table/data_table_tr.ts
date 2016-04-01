@@ -7,12 +7,12 @@ import "rxjs/add/operator/map";
   selector: 'tr',
   template: `
         <template [ngIf]="thDisplayed">
-          <th>
+          <th class="md-data-check-cell">
               <md-checkbox #check (click)="change()" [checked]="isActive"></md-checkbox>
           </th>
         </template>
         <template [ngIf]="tdDisplayed">
-          <td>
+          <td class="md-data-check-cell">
             <md-checkbox #check [checked]="isActive"></md-checkbox>
           </td>
         </template>

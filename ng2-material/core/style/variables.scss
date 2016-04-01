@@ -77,3 +77,5 @@ $swift-ease-in-out: all $swift-ease-in-out-duration $swift-ease-in-out-timing-fu
 $swift-linear-duration: 0.08s !default;
 $swift-linear-timing-function: linear !default;
 $swift-linear: all $swift-linear-duration $swift-linear-timing-function !default;
+
+$fast-out-slow-in-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !default;
