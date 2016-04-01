@@ -22,15 +22,6 @@ $data-table-column-padding: rem(2.400) !default;
 $data-table-column-spacing: rem(3.200) !default; 
 //column spacing + column padding = the prescribed 56dp
 
-$data-table-card-header-height: rem(6.400) !default;
-$data-table-card-title-top: rem(2.000) !default;
-$data-table-card-padding: rem(2.400) !default;
-$data-table-button-padding-right: rem(1.600) !default;
-$data-table-cell-top: $data-table-card-padding / 2;
-
-$data-table-select-width: rem(1.6) !default;
-
-
 md-data-table, .md-data-table {
   display: table;
   border-spacing: 0;
